@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+<div class="container">
+        <div class="doubler-card">
+            <h1>Compound Doubler</h1>
+            <p class="subtitle">Enter a starting amount and the number of times it should double.</p>
+
+            <div class="input-group">
+                <label for="principal">Starting Balance (₦)</label>
+                <input type="number" id="principal" value="100">
+            </div>
+
+            <div class="input-group">
+                <label for="iterations">Number of Doubling Cycles</label>
+                <input type="number" id="iterations" value="10">
+            </div>
+
+            <button id="calc-btn">Run Doubling Loop</button>
+
+            <div class="result-area">
+                <span id="result-label">Result after 10 doublings</span>
+                <h2 id="final-amount">₦102,400.00</h2>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+ </html>
