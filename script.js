@@ -22,6 +22,8 @@ document.getElementById('calc-btn').addEventListener('click', () => {
     display.innerText = amount.toLocaleString('en-NG', {
         style: 'currency',
         currency: 'NGN',
+maximumFractionDigits: 0, // Removes the decimal points (.00)
+    minimumFractionDigits: 0
     });
 
     // Success animation
